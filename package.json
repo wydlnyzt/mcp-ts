@@ -1,0 +1,35 @@
+{
+    "name": "mcp-ts",
+    "version": "1.0.0",
+    "description": "An MCP server architecture developed using TypeScript",
+    "license": "ISC",
+    "author": "wydlnyzt <wydln_secret@sina.com>",
+    "main": "./dist/index.js",
+    "keywords": [
+        "mcp",
+        "mcp server",
+        "mcp tool",
+        "ai"
+    ],
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "start": "node ./dist/index.js",
+        "build": "tsc && shx chmod +x dist/*.js",
+        "prepare": "npm run build",
+        "dev": "tsc --watch",
+        "inspector": "npm run build && npx -y @modelcontextprotocol/inspector node ./dist/index.js"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.12.3",
+        "zod": "^3.25.64"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.3",
+        "shx": "^0.4.0",
+        "typescript": "^5.8.3"
+    }
+}
