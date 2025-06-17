@@ -107,14 +107,6 @@ static initialize(): void {
 }
 ```
 
-### Tool Development Best Practices
-
-- Use Zod for parameter validation and type definition
-- Provide clear parameter descriptions in tool descriptions
-- Return structured JSON data
-- Add appropriate error handling
-- Write unit tests
-
 ## Configuring MCP in Desktop Applications
 
 ### Claude Desktop Configuration
@@ -195,16 +187,6 @@ The ISC License is a concise open source license that allows you to:
 The only requirement is to include the original copyright notice and license notice in all copies.
 
 For detailed license terms, please see the [LICENSE](./LICENSE) file.
-
----
-
-## Contributing
-
-Issues and Pull Requests are welcome to improve this project!
-
-## Author
-
-wydlnyzt <wydln_secret@sina.com>
 
 ---
 
